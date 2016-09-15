@@ -1,0 +1,64 @@
+@font-face{
+	font-family: "future";
+	src: url("future.otf");}
+
+@font-face{
+	font-family: "apple";
+	src: url("apple.ttf");}
+body{
+	font-family: "apple";
+	margin: 25px auto;
+	background-image: url("chinatown.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:900px;
+	padding: 30px 90px 50px 90px;}
+p{
+	width:800px;
+	border: 2px solid
+	padding:10px;
+}
+
+img{
+	float: right;
+	padding-top: 40px;
+}
+
+#page {
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px;
+}
+ul{
+	list-style-type: none;
+	border-width: medium;
+}
+
+a:link{
+	border: none;
+	text-decoration: none;
+	color: black; }
+a:visited{
+	color: darkcyan;}
+a:hover{
+	color: white;
+	text-decoration: underline;}
+a:active {
+	color: white;}
+
+h1{
+	padding: 16px,16px,16px,16px}
+
+h1,h2,h3,h4{
+	font-family: "future";}
+
+footer{
+	color: black;
+	position: absolute;
+	top: 1000px;
+	left: 800px;
+}
+
+.mail{
+	color: grey;
+	text-decoration: none;
+}
